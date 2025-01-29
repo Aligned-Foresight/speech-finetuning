@@ -4,5 +4,6 @@ spacy-transformers
 nltk
 numpy==1.26.4
 tiktoken
-sentencepiece
+sentencepiece==0.2.0
+jupyter
 jupyterlab-vim

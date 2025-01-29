@@ -1,7 +1,3 @@
-# Data files
-*.csv
-*.txt
-
 # Utility files
 cat_files.sh
 
