@@ -1,12 +1,16 @@
+import os
 import os.path
 
 import pandas as pd
 from definitions import LLAMA_MAX_TOKENS
 from transformers import AutoTokenizer
 from huggingface_hub import login
+from dotenv import load_dotenv
 
 # Initialize the Llama tokenizer
-login('<your-huggingface-api-token>')
+load_dotenv()
+HF_TOKEN = os.getenv('HF_TOKEN')
+login(HF_TOKEN)
 tokenizer = AutoTokenizer.from_pretrained("meta-llama/Meta-Llama-3-8B")
 
 bos = '<|begin_of_text|>'

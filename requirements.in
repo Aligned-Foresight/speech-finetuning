@@ -7,3 +7,6 @@ tiktoken
 sentencepiece==0.2.0
 jupyter
 jupyterlab-vim
+transformers
+huggingface-hub
+python-dotenv
