@@ -1,0 +1,8 @@
+pandas
+spacy
+spacy-transformers
+nltk
+numpy==1.26.4
+tiktoken
+sentencepiece
+jupyterlab-vim

@@ -1,0 +1,29 @@
+# Data files
+*.csv
+*.txt
+
+# Utility files
+cat_files.sh
+
+# Model checkpoints and cache
+**/checkpoint-*/
+*.pt
+*.pth
+*.bin
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Environment
+.env/
+env/
+venv/
+
+# Config Files
+.idea/*
+
+# OS files
+.DS_Store
