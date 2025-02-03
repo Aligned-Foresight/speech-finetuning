@@ -29,10 +29,12 @@ python main.py --dataset walz --output_file walz.csv
 python main.py --dataset vice_debate --output_file vice_debate.csv
 ```
 
-For the [trump finetune](https://alignedforesight.substack.com/p/what-trumps-speeches-reveal-about) project, raw data can be downloaded and processed using the DATA-get-speeches.ipynb notebook:
+For the [trump finetune](https://alignedforesight.substack.com/p/what-trumps-speeches-reveal-about) project, raw data for Trump and inaugural speeches can be downloaded and processed using the DATA-get-speeches.ipynb notebook:
 ```commandline
 jupyter notebook DATA-get-speeches.ipynb
 ```
+
+Raw data for Trump posts is available at [this link](https://www.thetrumparchive.com/), and can be processed using `ProcessData.py`.
 
 ## Downloading Processed Data
 All the processed data for the projects can be found in their dedicated Drive folders:
